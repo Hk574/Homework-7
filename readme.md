@@ -5,7 +5,8 @@ This project generates QR codes from a given URL, allowing customization of fill
 
 ## QR Code Examples
 
-### 1. Back Color: White | Fill Color: Red  
+### 1. URL (https://github.com/Hk574)
+### 1.1 Back Color: White | Fill Color: Red  
 ![Red QR Code](qr_codes/QRCode_20241104143157.png)
 
 **Logs:**
@@ -17,7 +18,7 @@ This project generates QR codes from a given URL, allowing customization of fill
 2024-11-04 14:31:57,185 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104143157.png
 ```
 
-### 2. Back Color: White | Fill Color: Black  
+### 1.2 Back Color: White | Fill Color: Black  
 ![Black QR Code](qr_codes/QRCode_20241104143115.png)
 
 **Logs:**
@@ -27,4 +28,30 @@ This project generates QR codes from a given URL, allowing customization of fill
 2024-11-04 14:31:15,795 - INFO - FILL_COLOR : black
 2024-11-04 14:31:15,795 - INFO - Generate and save the QR code Execution Started
 2024-11-04 14:31:15,822 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104143115.png
+```
+
+### 2. URL(https://example.com)
+
+### 2.1 Back Color: White | Fill Color: Yellow  
+![Black QR Code](qr_codes/QRCode_20241104143938.png)
+
+**Logs:**
+```
+2024-11-04 14:39:38,379 - INFO - URL : https://example.com
+2024-11-04 14:39:38,379 - INFO - BACK_COLOR : white
+2024-11-04 14:39:38,379 - INFO - FILL_COLOR : yellow
+2024-11-04 14:39:38,379 - INFO - Generate and save the QR code Execution Started
+2024-11-04 14:39:38,397 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104143938.png
+```
+
+### 2.2 Back Color: White | Fill Color: Green  
+![Black QR Code](qr_codes/QRCode_20241104144330.png)
+
+**Logs:**
+```
+2024-11-04 14:43:30,644 - INFO - URL : https://example.com
+2024-11-04 14:43:30,644 - INFO - BACK_COLOR : white
+2024-11-04 14:43:30,645 - INFO - FILL_COLOR : green
+2024-11-04 14:43:30,645 - INFO - Generate and save the QR code Execution Started
+2024-11-04 14:43:30,663 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104144330.png
 ```
