@@ -32,16 +32,16 @@ This project generates QR codes from a given URL, allowing customization of fill
 
 ### 2. URL(https://example.com)
 
-### 2.1 Back Color: White | Fill Color: Yellow  
-![Black QR Code](qr_codes/QRCode_20241104143938.png)
+### 2.1 Back Color: White | Fill Color: Blue  
+![Black QR Code](qr_codes/QRCode_20241104144703.png)
 
 **Logs:**
 ```
-2024-11-04 14:39:38,379 - INFO - URL : https://example.com
-2024-11-04 14:39:38,379 - INFO - BACK_COLOR : white
-2024-11-04 14:39:38,379 - INFO - FILL_COLOR : yellow
-2024-11-04 14:39:38,379 - INFO - Generate and save the QR code Execution Started
-2024-11-04 14:39:38,397 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104143938.png
+2024-11-04 14:47:03,784 - INFO - URL : https://example.com
+2024-11-04 14:47:03,784 - INFO - BACK_COLOR : white
+2024-11-04 14:47:03,784 - INFO - FILL_COLOR : blue
+2024-11-04 14:47:03,784 - INFO - Generate and save the QR code Execution Started
+2024-11-04 14:47:03,804 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104144703.png
 ```
 
 ### 2.2 Back Color: White | Fill Color: Green  

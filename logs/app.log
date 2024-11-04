@@ -18,3 +18,8 @@
 2024-11-04 14:43:30,645 - INFO - FILL_COLOR : green
 2024-11-04 14:43:30,645 - INFO - Generate and save the QR code Execution Started
 2024-11-04 14:43:30,663 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104144330.png
+2024-11-04 14:47:03,784 - INFO - URL : https://example.com
+2024-11-04 14:47:03,784 - INFO - BACK_COLOR : white
+2024-11-04 14:47:03,784 - INFO - FILL_COLOR : blue
+2024-11-04 14:47:03,784 - INFO - Generate and save the QR code Execution Started
+2024-11-04 14:47:03,804 - INFO - QR code successfully saved to /workspaces/Homework-7/qr_codes/QRCode_20241104144703.png
