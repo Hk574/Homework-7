@@ -64,7 +64,7 @@ def main():
 
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Generate a QR code.')
-    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/kaw393939')
+    parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/Hk574')
     parser.add_argument('--back_color',help='Back Color', default= BACK_COLOR)
     parser.add_argument('--fill_color',help='FILL Color', default= FILL_COLOR)
     args = parser.parse_args()
