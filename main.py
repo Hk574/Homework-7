@@ -58,6 +58,10 @@ def generate_qr_code(data, path, fill_color='red', back_color='white'):
         logging.error(f"An error occurred while generating or saving the QR code: {e}")
 
 def main():
+    
+    # Initial logging setup
+    setup_logging()
+
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Generate a QR code.')
     parser.add_argument('--url', help='The URL to encode in the QR code', default='https://github.com/kaw393939')
@@ -65,8 +69,10 @@ def main():
     parser.add_argument('--fill_color',help='FILL Color', default= FILL_COLOR)
     args = parser.parse_args()
 
-    # Initial logging setup
-    setup_logging()
+    logging.info(f"URL : {args.url}")
+    logging.info(f"BACK_COLOR : {args.back_color}")
+    logging.info(f"FILL_COLOR : {args.fill_color}")
+
     
     # Generate a timestamped filename for the QR code
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -78,7 +84,7 @@ def main():
     # Ensure the QR code directory exists
     create_directory(Path.cwd() / QR_DIRECTORY)
     
-    logging.info("Generate and save the QR code")
+    logging.info("Generate and save the QR code Execution Started")
     
     generate_qr_code(args.url, qr_code_full_path, args.fill_color, args.back_color)
 
