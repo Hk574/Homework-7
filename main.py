@@ -21,7 +21,8 @@ def setup_logging():
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
-            logging.StreamHandler(sys.stdout),
+            logging.FileHandler("logs/app.log"),  # Log to a file named app.log
+            logging.StreamHandler(sys.stdout),  # Optionally still log to console
         ]
     )
 
