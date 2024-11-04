@@ -1,7 +1,14 @@
+# QR Code Generator
 
-## https://github.com/Hk574
-# Back color - white , Fill Color - Red
-![https://github.com/Hk574](qr_codes/QRCode_20241104133815.png)
+## Overview
+This project generates QR codes from a given URL, allowing customization of fill and background colors. The generated QR codes are saved to a specified directory.
 
-# Back color - white , Fill Color - Black
-![https://github.com/Hk574](qr_codes/QRCode_20241104134709.png)
+## QR Code Examples
+
+1. **Back Color: White | Fill Color: Red**  
+   ![Red QR Code](qr_codes/QRCode_20241104133815.png)
+
+2. **Back Color: White | Fill Color: Black**  
+   ![Black QR Code](qr_codes/QRCode_20241104134709.png)
+
+For more information, please visit [my GitHub profile](https://github.com/Hk574).
